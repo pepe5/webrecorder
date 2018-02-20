@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 import { asyncConnect } from 'redux-connect';
 import { Link } from 'react-router-dom';
 
-import { load as loadColl } from 'redux/modules/collection';
-import { isLoaded as isRBLoaded, load as loadRB } from 'redux/modules/remoteBrowsers';
+import { load as loadColl } from 'store/modules/collection';
+import { isLoaded as isRBLoaded, load as loadRB } from 'store/modules/remoteBrowsers';
 import { truncate } from 'helpers/utils';
 
 import LegacyBookmarksTable from 'components/LegacyBookmarksTable';

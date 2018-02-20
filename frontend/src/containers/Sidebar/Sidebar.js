@@ -2,9 +2,9 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { createSearchAction } from 'redux-search';
 
-import { toggleSidebarResize } from 'redux/modules/sidebar';
+import { toggleSidebarResize } from 'store/modules/sidebar';
 import { getActiveBookmark, getOrderedBookmarks,
-         timestampOrderedBookmarkSearchResults } from 'redux/selectors';
+         timestampOrderedBookmarkSearchResults } from 'store/selectors';
 
 import { SidebarUI } from 'components/controls';
 

@@ -5,9 +5,9 @@ import { createSearchAction } from 'redux-search';
 import { Map } from 'immutable';
 
 import { truncate } from 'helpers/utils';
-import { load as loadColl } from 'redux/modules/collection';
-import { isLoaded as isRBLoaded, load as loadRB } from 'redux/modules/remoteBrowsers';
-import { getOrderedBookmarks, getOrderedRecordings, bookmarkSearchResults } from 'redux/selectors';
+import { load as loadColl } from 'store/modules/collection';
+import { isLoaded as isRBLoaded, load as loadRB } from 'store/modules/remoteBrowsers';
+import { getOrderedBookmarks, getOrderedRecordings, bookmarkSearchResults } from 'store/selectors';
 
 import CollectionDetailUI from 'components/CollectionDetailUI';
 

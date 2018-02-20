@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-import { getBookmarkCount } from 'redux/selectors';
+import { getBookmarkCount } from 'store/selectors';
 
 import { ToolBinUI } from 'components/controls';
 

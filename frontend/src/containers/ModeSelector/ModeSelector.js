@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-import { getActiveRemoteBrowser } from 'redux/selectors';
+import { getActiveRemoteBrowser } from 'store/selectors';
 
 import { ModeSelectorUI } from 'components/controls';
 

@@ -4,11 +4,11 @@ import { asyncConnect } from 'redux-connect';
 
 import config from 'config';
 
-import { isLoaded, load as loadColl } from 'redux/modules/collection';
-import { getArchives, setExtractable, updateUrl, updateTimestamp } from 'redux/modules/controls';
-import { resetStats } from 'redux/modules/infoStats';
-import { selectCollection } from 'redux/modules/user';
-import { getActiveCollection } from 'redux/selectors';
+import { isLoaded, load as loadColl } from 'store/modules/collection';
+import { getArchives, setExtractable, updateUrl, updateTimestamp } from 'store/modules/controls';
+import { resetStats } from 'store/modules/infoStats';
+import { selectCollection } from 'store/modules/user';
+import { getActiveCollection } from 'store/selectors';
 
 import { RemoteBrowser } from 'containers';
 import { IFrame, ReplayUI } from 'components/controls';
