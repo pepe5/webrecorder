@@ -43,9 +43,9 @@ const devConfig = {
     main: [
       'react-hot-loader/patch',
       `webpack-hot-middleware/client?path=http://${host}:${port}/__webpack_hmr&quiet=true`,
-      './src/client.js',
       './config/polyfills',
-      'bootstrap-loader/extractStyles'
+      'bootstrap-loader/extractStyles',
+      './src/client.js'
     ]
   },
 

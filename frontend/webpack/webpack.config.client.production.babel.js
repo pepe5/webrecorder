@@ -19,9 +19,9 @@ const prodConfig = {
 
   entry: {
     main: [
-      './src/client.js',
       './config/polyfills',
-      'bootstrap-loader/extractStyles'
+      'bootstrap-loader/extractStyles',
+      './src/client.js'
     ]
   },
 
